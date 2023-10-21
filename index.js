@@ -1,27 +1,27 @@
 // silder start
-document.addEventListener("DOMContentLoaded", function () {
-     const slider = document.querySelector(".slider");
-     const images = document.querySelectorAll(".slider img");
-     let currentImageIndex = 0;
-     const imageCount = images.length;
-     const slideWidth = images[0].clientWidth;
+// document.addEventListener("DOMContentLoaded", function () {
+//      const slider = document.querySelector(".slider");
+//      const images = document.querySelectorAll(".slider img");
+//      let currentImageIndex = 0;
+//      const imageCount = images.length;
+//      const slideWidth = images[0].clientWidth;
    
-     function nextSlide() {
-       if (currentImageIndex === imageCount - 1) {
-         currentImageIndex = 0;
-       } else {
-         currentImageIndex++;
-       }
-       updateSlider();
-     }
+//      function nextSlide() {
+//        if (currentImageIndex === imageCount - 1) {
+//          currentImageIndex = 0;
+//        } else {
+//          currentImageIndex++;
+//        }
+//        updateSlider();
+//      }
    
-     function updateSlider() {
-       const offsetX = -currentImageIndex * slideWidth;
-       slider.style.transform = `translateX(${offsetX}px)`;
-     }
+//      function updateSlider() {
+//        const offsetX = -currentImageIndex * slideWidth;
+//        slider.style.transform = `translateX(${offsetX}px)`;
+//      }
    
-     setInterval(nextSlide, 6000); // Change the image every 3 seconds
-   });
+//      setInterval(nextSlide, 6000); // Change the image every 3 seconds
+//    });
 
    //silder end
 
