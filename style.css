@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   overflow: hidden;
   display: flex;
