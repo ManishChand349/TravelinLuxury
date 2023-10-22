@@ -5,12 +5,17 @@ html {
 body {
   overflow-x: hidden; /* Hide scrollbars */
 }
+*{
+  margin: 0;
+
+  padding: 0;
+}
 .navbar {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 0 50px;
   /* position: fixed; */
 }
 
